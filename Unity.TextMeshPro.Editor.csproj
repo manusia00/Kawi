@@ -276,6 +276,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>E:/Software/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="clipper_library">
+        <HintPath>E:/User/Matkul-6/Game Production/Kawi/Library/PackageCache/com.unity.cinemachine@2.8.4/Runtime/ThirdParty/clipper_library.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
         <HintPath>E:/User/Matkul-6/Game Production/Kawi/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
