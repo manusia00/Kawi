@@ -284,7 +284,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 3
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -378,7 +378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169911420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.92, y: -0.47, z: 0}
+  m_LocalPosition: {x: -23.76, y: -0.74, z: 0}
   m_LocalScale: {x: 0.18942438, y: 0.18942438, z: 0.18942438}
   m_Children: []
   m_Father: {fileID: 0}
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1671001020}
   agroRange: 6
-  moveSpeed: 1
+  moveSpeed: 2
 --- !u!61 &169911426
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53326a811648a514c8b99eb9b82dc058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 2
   checkRadius: 8
   whatIsPlayer:
     serializedVersion: 2
@@ -635,7 +635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343454519}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.64, y: 6.55, z: 0}
+  m_LocalPosition: {x: -6.62, y: 5.93, z: 0}
   m_LocalScale: {x: 0.475702, y: 0.47570196, z: 0.47570196}
   m_Children: []
   m_Father: {fileID: 0}
@@ -723,7 +723,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.6014376, y: 1}
+    m_SensorSize: {x: 1.6004475, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -836,7 +836,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.22, y: -1.33, z: -10}
+  m_LocalPosition: {x: -20.26, y: -1.33, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 413810537}
@@ -1119,7 +1119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671001018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.22, y: -1.33, z: 0}
+  m_LocalPosition: {x: -20.26, y: -1.33, z: 0}
   m_LocalScale: {x: -0.1421776, y: 0.14217764, z: 0.14217764}
   m_Children:
   - {fileID: 1813702772}
