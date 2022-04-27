@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class EnemyFly : MonoBehaviour
 {
-    public float speed;
-    public float checkRadius;
-    
-    public bool shouldRotate;
-    public LayerMask whatIsPlayer;
+    [SerializeField]
+    private float speed;
+
+    [SerializeField]
+    private float checkRadius;
+
+    [SerializeField]
+    private LayerMask whatIsPlayer;
 
     private Transform target;
     private Rigidbody2D rb;

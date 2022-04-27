@@ -8,21 +8,24 @@ public class EnemyPatrol : MonoBehaviour
     public bool mustPatrol;
     private bool mustFlip;
 
-    public Rigidbody2D rb;
+    [SerializeField]
+    private Rigidbody2D rb;
 
-    public Transform groundCheck;
+    [SerializeField]
+    private Transform groundCheck;
 
-    public LayerMask groundLayer;
+    [SerializeField]
+    private LayerMask groundLayer;
 
-    public Collider2D body;
+    [SerializeField]
+    private Collider2D body;
 
-    public float walkSpeed;
+    [SerializeField]
+    private float walkSpeed;
     // Start is called before the first frame update
     void Start()
     {
         mustPatrol = true;
-        mustFlip = false;
-        
     }
 
     // Update is called once per frame
@@ -32,8 +35,6 @@ public class EnemyPatrol : MonoBehaviour
         {
             Patrol();            
         }        
- 
-
     }
 
     void FixedUpdate()
@@ -44,7 +45,8 @@ public class EnemyPatrol : MonoBehaviour
         }
     }
 
-    void Patrol(){
+    void Patrol()
+    {
         if(mustFlip || body.IsTouchingLayers(groundLayer))
         {
             Flip();
@@ -52,7 +54,8 @@ public class EnemyPatrol : MonoBehaviour
         rb.velocity = new Vector2(walkSpeed * Time.fixedDeltaTime, rb.velocity.y);
     }
 
-    void Flip(){
+    void Flip()
+    {
         mustPatrol = false;
         transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
         walkSpeed *= -1;
